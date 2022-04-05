@@ -1,0 +1,31 @@
+.counter {
+	background: #95E1D3;
+	margin-bottom: 42px;
+}
+.counter__container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.counter__item {
+	flex: 1;
+	border-right: 1px solid #FFFFFF;
+}
+.counter__item:nth-child(1) {
+	border-left: 1px solid #FFFFFF;
+}
+.counter__itemText { 
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+.counter__itemTitle { 
+	font-family: Raleway;
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 30px 0;
+}

@@ -1,0 +1,47 @@
+.design {
+	padding-top: 42px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 57px;
+	align-items: center;
+	gap: 30px;
+	background: url("./image.png") center no-repeat;
+	max-height: 820px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.design__intro {
+	font-family: Kaushan Script;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44px;
+	text-align: center;
+}
+
+.design__line {
+	margin-bottom: 39px;
+}
+
+.design__title {
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.design__devices {
+	position: relative;
+}
+
+.design__devicesPhone {
+	position: absolute;
+	bottom: -100px;
+	right: 190px;
+}

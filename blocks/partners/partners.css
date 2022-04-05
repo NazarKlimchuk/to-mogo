@@ -1,0 +1,20 @@
+.partners {
+	background: #F8F8F8;
+	margin-top: 84px;
+	margin-bottom: 84px;
+}
+
+.partners__container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.partners__logo {
+	padding: 42px 0px;
+}
+
+.partners__logo:hover svg {
+	cursor: pointer;
+}

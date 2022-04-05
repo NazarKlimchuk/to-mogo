@@ -1,0 +1,79 @@
+.offer {
+	margin-top: 85px;
+	margin-bottom: 115px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 42px;
+}
+
+.offer__intro {
+	font-family: Kaushan Script;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44px;
+	text-align: center;
+}
+
+.offer__title {
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.offer__text {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+}
+
+.offer__services {
+	display: flex;
+	gap: 30px;
+}
+
+.offer__listItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #C6CBCD;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.offer__listItemDescription {
+	display: flex;
+	align-items: center;
+	border: 1px solid #C6CBCD;
+	border-top: none;
+	margin-bottom: 22px;
+}
+
+.offer__listItemText {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #2D3033;
+	max-width: 80%;
+	padding: 22px 12px 22px 54px;
+}
+
+.offer__listItemTitle {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #2D3033;
+	margin-right: auto;
+	padding: 24px 0px 24px 12px;
+}
