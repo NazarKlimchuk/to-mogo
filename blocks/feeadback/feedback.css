@@ -1,0 +1,81 @@
+.feedback {
+	background: url("./bachground.png") center no-repeat;
+	max-height: 923px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	padding: 42px 0;
+}
+
+.feedback__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedback__intro {
+	font-family: Kaushan Script;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44px;
+	text-align: center;
+}
+
+.feedback__title {
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.feedback__line {
+	padding: 24px 0 24px 0;
+}
+
+.feedback__comments {
+	margin: 42px 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 42px;
+}
+
+.feedback__comment {
+	max-width: 45%;
+	display: flex;
+	gap: 50px;
+}
+
+.feedback__name {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #2D3033;
+	margin-bottom: 30px;
+}
+
+.feedback__job {
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #2D3033;
+}
+
+.feedback__text {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 18px;
+	color: #2D3033;
+}
+
+.feedback__devider {
+	width: 70px;
+	height: 4px;
+	background: #F38281;
+	margin: 32px 0;
+}

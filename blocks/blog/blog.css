@@ -1,0 +1,92 @@
+.blog {
+	padding: 84px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog__intro {
+	font-family: Kaushan Script;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44px;
+	text-align: center;
+}
+
+.blog__title {
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.blog__line {
+	padding: 24px 0;
+}
+
+.blog__posts {
+	margin: 24px 0;
+	display: flex;
+	gap: 30px;
+}
+
+.blog__post {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.blog__postTitle {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #2D3033;
+}
+
+.blog__postText {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 18px;
+	color: #2D3033;
+}
+
+.blog__postFeedback {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.blog__postFeedback p {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 13px;
+	color: #2D3033;
+}
+
+.blog__postImage {
+	position: relative;
+}
+
+.blog__postDate {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-color: #95E1D3;
+	top: 148px;
+	left: -14px;
+	text-align: center;
+}
+
+.blog__postDay {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 30px;
+	color: #FFFFFF;
+	margin: 0;
+	text-transform: uppercase;
+}

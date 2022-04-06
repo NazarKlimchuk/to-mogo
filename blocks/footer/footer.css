@@ -1,0 +1,148 @@
+.footer {
+	background: #F8F8F8;
+}
+
+.footer__container {
+	padding-top: 42px;
+}
+
+.footer__columns {
+	display: flex;
+	gap: 30px;
+}
+
+.footer__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.footer__text {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 18px;
+	color: #C6CBCD;
+}
+
+.footer__followers span {
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 700;
+	color: #2D3033;
+}
+
+.footer__followers {
+	font-family: Raleway;
+	font-size: 28px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #2D3033;
+}
+
+.footer__follow {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-size: 13px;
+	color: #C6CBCD;
+	border-top: 1px solid #C6CBCD;
+	padding-top: 13px;
+	display: flex;
+	align-items: center;
+}
+
+.footer__surbscribe {
+	display: flex;
+}
+
+.footer__input {
+	width: 236px;
+	height: 55px;
+	border-radius: none;
+	border: 1px solid #C6CBCD;
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-align: center;
+	color: #C6CBCD;
+	padding: 0;
+}
+
+.footer__button {
+	width: 133px;
+	height: 55px;
+	background: #95E1D3;
+	border-radius: none;
+	border: 1px solid #C6CBCD;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.footer__blogItem {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.footer__title {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 24px;
+	color: #2D3033;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.footer__blogText {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #2D3033;
+	padding-left: 30px;
+}
+
+.footer__blogText span {
+	display: block;
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 13px;
+	color: #2D3033;
+	padding-top: 10px;
+}
+
+.footer__grid {
+	padding: 30px 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0;
+}
+
+.footer__gridItem img {
+	width: 100%;
+	height: 100%;
+}
+
+.footer__link {
+	font-family: 'Raleway';
+	font-size: 13px;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #2D3033;
+}
+
+.footer__copyright {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2D3033;
+	padding: 15px 0;
+	border-top: 1px solid #C6CBCD;
+	margin-top: 42px;
+}

@@ -4,6 +4,10 @@
 	padding-bottom: 50px;
 }
 
+.quote__clear {
+	background: none;
+}
+
 .quote__container {
 	display: flex;
 	gap: 50px;
