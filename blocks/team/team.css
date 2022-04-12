@@ -6,12 +6,13 @@
 	align-items: center;
 }
 
-.team__intro {
+.team__subtitle {
 	font-family: Kaushan Script;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 44px;
 	text-align: center;
+	color: #2D3033;
 }
 
 .team__title {
@@ -23,6 +24,7 @@
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	color: #2D3033;
 }
 
 .team__line {
@@ -37,7 +39,7 @@
 	text-align: center;
 }
 
-.team__gallery {
+.team__picture {
 	display: flex;
 	gap: 30px;
 	padding-top: 58px;
@@ -98,4 +100,14 @@
 
 .team__contactsItem:hover {
 	transform: scale(1.1);
+}
+@media screen and (max-width: 320px) {
+.team__gallery {
+	flex-wrap: wrap;
+}
+
+.team__gallery img {
+	max-width: 288px;
+}
+
 }

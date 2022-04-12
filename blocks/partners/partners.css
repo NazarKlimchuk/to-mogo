@@ -18,3 +18,12 @@
 .partners__logo:hover svg {
 	cursor: pointer;
 }
+@media screen and (max-width: 320px) {
+.partners__container {
+	justify-content: center;
+}
+
+.partners__logo {
+	flex: 1;
+}
+}

@@ -13,12 +13,13 @@
 	z-index: 1;
 }
 
-.design__intro {
+.design__subtitle {
 	font-family: Kaushan Script;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 44px;
 	text-align: center;
+	color: #2D3033;
 }
 
 .design__line {
@@ -34,6 +35,7 @@
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	color: #2D3033;
 }
 
 .design__devices {
@@ -44,4 +46,40 @@
 	position: absolute;
 	bottom: -100px;
 	right: 190px;
+}
+
+@media screen and (max-width: 1024px) {
+	.design__intro {
+		font-size: 24px;
+	}
+
+	.design__line {
+		margin-bottom: 39px;
+	}
+
+	.design__title {
+		font-size: 24px;
+	}
+
+	.design__devices {
+		position: relative;
+	}
+
+	.design__devicesTablet {
+		max-width: 100%;
+	}
+
+	.design__devicesPhone {
+		position: absolute;
+		bottom: -54px;
+		right: 44px;
+	}
+
+	.design__devices img {
+		max-width: 288px;
+	}
+
+	.design__devicesPhone img {
+		max-width: 60px;
+	}
 }

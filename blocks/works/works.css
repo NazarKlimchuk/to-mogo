@@ -2,16 +2,17 @@
 	margin-bottom: 84px;
 }
 
-.works__intro {
+.works__subtitle {
 	font-family: Kaushan Script;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 44px;
 	text-align: center;
+	color: #2D3033;
 }
 
 .works__title {
-	font-family: Raleway;
+    font-family: Raleway;
 	font-size: 36px;
 	font-weight: 900;
 	line-height: 42px;
@@ -19,6 +20,7 @@
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	color: #2D3033;
 }
 
 .works__line {
@@ -35,27 +37,27 @@
 	margin: 0 170px 80px;
 }
 
-.works__gallery {
+.works__picture {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	gap: -5px;
 }
 
-.works__galleryItem img {
+.works__pictureItem img {
 	width: 100%;
 	height: 100%;
 }
 
-.works__galleryItem_big {
+.works__pictureItem_big {
 	grid-column: span 1;
 	grid-row: span 2;
 }
 
-.works__galleryItem {
+.works__pictureItem {
 	position: relative;
 }
 
-.works__galleryMask {
+.works__pictureMask {
 	visibility: hidden;
 	display: flex;
 	flex-direction: column;
@@ -69,7 +71,7 @@
 	background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
 }
 
-.works__galleryMaskTitle {
+.works__pictureMaskTitle {
 	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 24px;
@@ -79,13 +81,42 @@
 	color: #FFFFFF;
 }
 
-.works__galleryMaskText {
+.works__pictureMaskText {
 	font-family: 'Raleway';
 	font-weight: 400;
 	font-size: 18px;
 	color: #FFFFFF;
 }
 
-.works__galleryItem:hover .works__galleryMask {
+.works__pictureItem:hover .works__pictureMask {
 	visibility: visible;
+}
+
+@media screen and (max-width: 320px) {
+
+.works__intro {
+    font-size: 24px;
+}
+
+.works__title {
+	font-size: 24px;
+}
+
+.works__line {
+	padding: 24px 0 24px 0;
+	text-align: center;
+}
+
+.works__text {
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.works__picture {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: -5px;
+}
+
 }

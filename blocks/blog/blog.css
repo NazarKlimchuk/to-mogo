@@ -1,27 +1,29 @@
 .blog {
-	padding: 84px 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  padding: 84px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.blog__intro {
-	font-family: Kaushan Script;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 44px;
-	text-align: center;
+.blog__subtitle {
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+  color: #2D3033;
 }
 
 .blog__title {
-	font-family: Raleway;
-	font-size: 36px;
-	font-weight: 900;
-	line-height: 42px;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	color: #2D3033;
 }
 
 .blog__line {
@@ -89,4 +91,55 @@
 	color: #FFFFFF;
 	margin: 0;
 	text-transform: uppercase;
+}
+@media screen and (max-width: 320px) {
+	.blog__intro {
+		font-size: 24px;
+	}
+
+	.blog__title {
+		font-size: 24px;
+	}
+
+	.blog__posts {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.blog__post {
+		width: 288px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.blog__post img {
+		max-width: 288px;
+	}
+
+	.blog__postTitle {
+		font-size: 18px;
+	}
+
+	.blog__postText {
+		font-size: 14px;
+	}
+
+	.blog__postFeedback {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+	}
+	.blog__postImage {
+		position: relative;
+	}
+
+	.blog__postDate {
+		width: 67px;
+		height: 67px;
+		top: 148px;
+		left: 5px;
+	}
+
 }

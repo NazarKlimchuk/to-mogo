@@ -1,5 +1,5 @@
 .feedback {
-	background: url("./bachground.png") center no-repeat;
+	background: url("./fon.png") center no-repeat;
 	max-height: 923px;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -14,12 +14,13 @@
 	align-items: center;
 }
 
-.feedback__intro {
+.feedback__subtitle {
 	font-family: Kaushan Script;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 44px;
 	text-align: center;
+	color: #2D3033;
 }
 
 .feedback__title {
@@ -31,13 +32,14 @@
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	color: #2D3033;
 }
 
 .feedback__line {
 	padding: 24px 0 24px 0;
 }
 
-.feedback__comments {
+.feedback__column {
 	margin: 42px 0;
 	display: flex;
 	flex-wrap: wrap;
@@ -78,4 +80,53 @@
 	height: 4px;
 	background: #F38281;
 	margin: 32px 0;
+}
+@media screen and (max-width: 320px) {
+	.feedback {
+		max-height: 100%;
+	}
+
+	.feedback__subtitle {
+		font-size: 24px;
+	}
+
+	.feedback__title {
+		font-size: 24px;
+	}
+
+	.feedback__column {
+		margin: 42px 0;
+		display: flex;
+		flex-direction: column;
+		gap: 29px;
+	}
+
+	.feedback__comment {
+		max-width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.feedback__name {
+		font-size: 18px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.feedback__job {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.feedback__text {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.feedback__devider {
+		margin: 10px auto;
+	}
+
 }
